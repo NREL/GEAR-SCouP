@@ -1,0 +1,38 @@
+%%%%%%%%%%% GEOMETRY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+100;		% Number of teeth
+2.5;		% Diametral pitch
+5;		% Effective face width, inch
+120;		% Distance between gear mesh centerline, inch
+20;		% Pressure angle, degree
+1.5;		% Design mislignment angle, degree
+0.6123;		% Hub tooth circular tooth thickness, inch
+0.5668;  	% Sleeve circular tooth thickness, inch
+40.8;		% Major diameter of hub, inch
+39.32;		% Minor diameter of sleeve, inch
+0.168;		% Hub tooth tip chamfer, inch
+0;   		% Face crown radius (normal), inch 
+0.04706;	% Face crown height, inch
+0; 		% Root crown radius at pitch diameter, inch
+0.9852; 	% Hob tooth AGMA form factor
+1.428; 		% Sleeve tooth AGMA form factor
+1.94;  		% Hub tooth stress concentration factor
+0.8;  		% Accuracy factor
+2.90e7;  	% Young's modulus, lb/in2
+4996860;	% Rated Torque, in-lb 
+0;		% 0= Through_hardened,1= Carburized,2=Nitrided,3=Induction-Hardened
+2;		% Type 1 (Flank & Root hardened) or 2 (Flank hardened) for Induction-Hardened
+285;		% Brinell Hardness Number for Through-Hardened 
+0;		% Su, case, ksi, 0 as default
+0;		% Su, core, ksi, 0 as default
+0;		% Sy, case, ksi, 0 as default
+0;		% Sy, core, ksi, 0 as default
+%%%%%%%%%%%% ITERATION TOLERANCE %%%%%%%%%%%%%%%%%%%%%%%%%%%
+0.001;		% integration tolerance
+%%%%%%%%%%%% MISALIGNMENT ANGLE %%%%%%%%%%%%%%%%%%%%%%%%%%%
+1.5;		% Minimum misalignment angle, degree
+1.5;		% Maximum misalignment angle, degree
+0.01;		% Angle increase step, degree
+%%%%%%%%%%%% Torque range %%%%%%%%%%%%%%%%%%%%%%%%%%%
+1.5;		% Ratio between minimum torque and rated
+1.5;		% Ratio between maximum torque and rated
+0.05;		% Torque increase step
